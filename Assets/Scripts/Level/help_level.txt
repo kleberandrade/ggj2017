@@ -1,0 +1,37 @@
+Level:
+sample_sheet
+5 6 64 64 5 6			// Dimensão do level | dimensão do tile | divesão do tile sheet
+T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;
+T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;
+T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;
+T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;
+T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;T,I,R;
+
+StartPortals: // pode ter vários portais -> se existir mais de um -> random nos starts
+1
+S,X,Y	// start -> onde o player começa
+
+EndPortals: // pode ter vários
+2
+F,X,Y	// final -> onde termina o jogo
+F,X,Y	// final -> onde termina o jogo
+
+Enemies:
+2
+E,X,Y
+E,X,Y
+
+Items:
+4
+I,X,Y
+I,X,Y
+I,X,Y
+I,X,Y
+
+Talks: // 1 = player 1; 2 = player 2; 3 = nave mãe
+5
+1:Hello my brother
+1:lorem ipsum
+2:lorem ipsum
+3:lorem ipsum
+1:lorem ipsum
